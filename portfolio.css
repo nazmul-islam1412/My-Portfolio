@@ -38,7 +38,10 @@
     border-radius: 5px;
     border: none;
     padding: 18px 35px;
+   
+    cursor: pointer;
 }
+
 
 /* Nav Styles */
 nav{
@@ -161,6 +164,7 @@ nav li a{
     gap: 24px;
     margin: 0px 230px 130px 260px;
     border-radius: 8px;
+    margin-bottom: 130px;
 }
 
 .skills h4{
@@ -176,4 +180,35 @@ nav li a{
 .skills .shadow {
      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
      padding: 20px;
+}
+
+/* Resume Section */
+
+.resume-h{
+    text-align: center;
+    margin-bottom: 110px;
+    margin: 0px 572px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.Resume{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px 0px 277px;
+    gap: 71px;
+}
+
+.Resume p{
+    color: #757575;
+}
+
+.Resume h4{
+    color: #474747;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Resume h5{
+    color: #474747;
 }
