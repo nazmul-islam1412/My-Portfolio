@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Raw css -->
     <link rel="stylesheet" href="portfolio.css">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisy UI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <title>My Portfolio</title>
 </head>
 <body class="open-sans-normal">
@@ -27,8 +32,10 @@
                     <p class="banner-description">
                         Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
                     </p>
+                    <div>
                     <button class="btn-primary">Download CV</button>
                     <button class="btn-primary">Contact</button>
+                    </div>
                 </div>
             </div>
             <img class="banner-profile-pic" src="images/Nazmul-removebg-preview.png">
@@ -39,7 +46,7 @@
         <section>
            <div class="about-secondary-bg">
 
-            <div class="about-secondary">
+            <div class="about-secondary p-5">
                  <h3 class="section-title dark-1">About Me</h3>
             <p class="section-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and<br>slick websites that provide real value to the end user. Thousands of clients have procured<br>exceptional resulfs while working with me. Delivering work within time and budget which meets<br>clients requirements in our mata.</p>
            <div class="about-f">
@@ -68,7 +75,7 @@
 
         <section>
            <div class="section-what">
-             <h2>What I do</h2>
+             <h2 class="font-bold text-[45px]">What I do</h2>
             <p>I have more than 10 years experience building software for clients all over the world. Below is a quick<br>overview of my main technical skill sets and technologies i use. Want to find out more about my experience?<br>Check out my online resume and project portfolio.</p>
            </div>
         </section>
@@ -112,69 +119,62 @@
 
         <div class="Resume">
 
-            <div>
-                <div>
-                <h4>My Education</h4>
-                <div>
-                    <h5>Master in Computer Engineering<br>Harvard University / 2015 - 2017</h5>
-                    <p>List skill/technologies here. You can change the icon above<br>
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
-                </div>
+    <div>
+        <div>
+            <h4 class="mt-9">My Education</h4>
+            <div class="mt-5">
+                <h5 class="mt-5 text-[20px]">SSC (Secondary School Certificate)<br>Board:Chittagong<br>GPA:4.89</h5>
+                <p>Completed secondary education with strong academic performance.</p>
             </div>
-            <div>
-                <div>
-                    <h5>Master in Computer Engineering<br>Harvard University / 2015 - 2017</h5>
-                    <p>List skill/technologies here. You can change the icon above<br>
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h5>Master in Computer Engineering<br>Harvard University / 2015 - 2017</h5>
-                    <p>List skill/technologies here. You can change the icon above<br>
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
-                </div>
-            </div>
-
-            </div>
-           <div>
-             <div>
-                <h4>My Experience</h4>
-
-                <div>
-                    <h5>Sr. Font End Developer <br>Apple Inc / 2020 - Current</h5>
-                    <p>List skill/technologies here. You can change the icon above<br>
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
-                </div>
-            </div>
-            <div>
-
-                <div>
-                    <h5>Sr. Font End Developer <br>Apple Inc / 2020 - Current</h5>
-                    <p>List skill/technologies here. You can change the icon above<br>
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
-                </div>
-            </div>
-            <div>
-
-
-                <div>
-                    <h5>Sr. Font End Developer <br>Apple Inc / 2020 - Current</h5>
-                    <p>List skill/technologies here. You can change the icon above<br>
-                    to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
-                </div>
-            </div>
-
-           </div>
-
         </div>
+        <div>
+            <div class="mb-5">
+                <h5 class="mt-5 text-[20px]">HSC (Higher Secondary Certificate)<br> Board:Chittagong<br>GPA:5.00</h5>
+                <p>Excelled in higher secondary studies, achieving a perfect GPA.</p>
+            </div>
+        </div>
+        <div>
+            <div class="mb-5">
+                <h5 class="mt-5 text-[20px]">B.Sc in Computer Science and Engineering<br>International Islamic University Chittagong<br>Status:Ongoing</h5>
+                <p>Currently pursuing Bachelor's degree in CSE, focusing on programming, web development, and software engineering.</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <h4 class="mt-9">My Experience</h4>
+
+            <div class="mb-5">
+                <h5 class="mt-5 text-[20px]">Sr. Font End Developer <br>Apple Inc / 2020 - Current</h5>
+                <p>List skill/technologies here. You can change the icon above<br>
+                to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
+            </div>
+        </div>
+        <div>
+            <div class="mb-5">
+                <h5 class="mt-5 text-[20px]">Sr. Font End Developer <br>Apple Inc / 2020 - Current</h5>
+                <p>List skill/technologies here. You can change the icon above<br>
+                to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
+            </div>
+        </div>
+        <div>
+            <div class="mb-5">
+                <h5 class="mt-5 text-[20px]">Sr. Font End Developer <br>Apple Inc / 2020 - Current</h5>
+                <p>List skill/technologies here. You can change the icon above<br>
+                to any of the 1500+ FontAwesome 5 free icons available. Aenean<br>commodo ligula eget dolor.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
 
        </section>
 
     </main>
 
     <footer>
-
+        
     </footer>
 
     
